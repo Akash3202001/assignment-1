@@ -2,6 +2,7 @@ html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 body {
   padding: 0;
@@ -9,26 +10,39 @@ body {
   box-sizing: border-box;
 }
 section {
-  max-width: 1320px;
+    max-width: 1320px;
   width: 100%;
   margin: auto;
 }
 .wallpaper {
-  color: #fff;
-  background: url("../images/Rectangle14.png");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding: 50px 0;
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 72;
+    color: #fff;
+    background: url("../images/Rectangle14.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* padding: 50px 0; */
+    height: 600px;
+    font-size: 72;
+    font-family: "Merriweather", serif;
+}
+
+.background-party{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    background: linear-gradient(#070211, #ffffff4f);
 }
 .category {
   text-align: center;
+}
+.happy-year {
+  font-size: 30px;
+}
+.happy-celebration {
+  font-size: 80px;
 }
 .category-off {
   color: #f00;
@@ -36,11 +50,15 @@ section {
   font-family: Inter;
   font-size: 80px;
 }
+
+.caption-welcome{
+    font-size: 50px;
+}
 .category-our-holiday {
   color: #f00;
   text-align: center;
   font-family: Inter;
-  font-size: 10px;
+  font-size: 20px;
 }
 .category-all {
   color: #070211;
@@ -245,8 +263,8 @@ footer {
   border: 0;
 }
 
-.call-icon{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.call-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
